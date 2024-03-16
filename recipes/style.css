@@ -1,0 +1,49 @@
+/* 1. alignment & sizes
+center everythiing first,make the picture smaller and sizeable w.r to words
+
+    2. add different background colour/ separator
+    
+    3. add > space btw words & highlight certain words*/
+
+    
+
+    .wrapper-main{
+        width:700px;
+        margin:0 auto;
+        /*0->no margin for top/bottom,auto->margin evenly distributed btw left/right*/
+    }
+
+    .overall-style{
+        line-height: 1cm;
+    }
+    #image{
+        width: 100%;
+        
+    }
+    
+    h1{
+        text-align: center;
+        background-color:blanchedalmond;
+    }
+
+    h3{
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    p{
+        font-style: italic;
+    }
+    .ind-ingred{
+        font-style: italic;
+    }
+
+    ul, ol{
+        padding: left 2px;
+    }
+    ul{
+        list-style-type:circle;
+    }
+
+    .quantity{
+        font-weight: bolder;
+    }
