@@ -1,49 +1,81 @@
-/* 1. alignment & sizes
-center everythiing first,make the picture smaller and sizeable w.r to words
+/* Lessons learnt: avoid using tags without id and classes unless they r
+really normal and does not need to stand out eg.words in a passage. Use id &
+classes to prevent clashes of attributes in a same tag*/
+    html{
+        box-sizing: border-box;
+    }
 
-    2. add different background colour/ separator
-    
-    3. add > space btw words & highlight certain words*/
+    *,*::before,*::after{
+        box-sizing:inherit
+    }
 
-    
-
+    body{
+        background-color: rgb(244, 241, 241);
+    }
     .wrapper-main{
         width:700px;
         margin:0 auto;
-        /*0->no margin for top/bottom,auto->margin evenly distributed btw left/right*/
+        /*0->no margin for top/bottom,auto->margin evenly distributed btw left/right
+        so the page is evenly centered for its specific width*/
     }
 
     .overall-style{
-        line-height: 1cm;
+        line-height: 1cm; /*height of each line/chars*/
     }
     #image{
         width: 100%;
-        
+    /*use width to resize image as height auto refits too*/
     }
     
+    .caption{
+        font-size: 18px;
+        text-align: left;
+        margin: 0;
+        font-weight: lighter;
+        line-height: 0cm;
+    }
     h1{
         text-align: center;
-        background-color:blanchedalmond;
+        border-bottom-color: hsl(39, 97%, 51%);
+        padding-bottom: 6px;
+        border-bottom-style:double;
+    }
+  .procedures{
+        font-style: italic;
+        text-align: center;
+        font-style: oblique;
+        font-size: 30px;
+        font-weight: 100;
+        margin-top:100px;
+        margin-bottom:30px;
+        padding-top: 1px; /* Add some padding */
+        padding-bottom: 1px;
+        
     }
 
     h3{
         font-family: 'Times New Roman', Times, serif;
+
     }
 
-    p{
-        font-style: italic;
-    }
+
     .ind-ingred{
         font-style: italic;
     }
 
     ul, ol{
-        padding: left 2px;
+        padding: left 2px; /*adds 2px worth of whitespaces/paddings*/
     }
     ul{
         list-style-type:circle;
     }
 
-    .quantity{
-        font-weight: bolder;
+    section{
+        margin: 50px auto 10px;
+        font-size: 23px;
+
+    }
+
+    span{
+        background-color:bisque;
     }
