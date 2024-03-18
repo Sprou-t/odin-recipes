@@ -1,6 +1,10 @@
-/* Lessons learnt: avoid using tags without id and classes unless they r
+/* Lessons learnt: 
+1. avoid using tags without id and classes unless they r
 really normal and does not need to stand out eg.words in a passage. Use id &
-classes to prevent clashes of attributes in a same tag*/
+classes to prevent clashes of attributes in a same tag
+2. Line height controls the height of each lines in a block and effectively
+the spacing between each line/element. ie. if font-size is smaller than 
+line-height, there will seemingly be a gap*/
     html{
         box-sizing: border-box;
     }
@@ -48,8 +52,6 @@ classes to prevent clashes of attributes in a same tag*/
         font-weight: 100;
         margin-top:100px;
         margin-bottom:30px;
-        padding-top: 1px; /* Add some padding */
-        padding-bottom: 1px;
         
     }
 
